@@ -1,0 +1,48 @@
+{
+  "name": "vue-router-history-manager",
+  "version": "1.0.0",
+  "description": "Vue Router history manager",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vue",
+    "vue-router",
+    "history",
+    "navigation"
+  ],
+  "author": "wisen",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^2.7.0",
+    "vue-router": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "@types/vue-router": "^2.0.0",
+    "vue": "^2.7.0",
+    "vue-router": "^3.0.0",
+    "typescript": "^4.5.0",
+    "rollup": "^2.79.1",
+    "rollup-plugin-typescript2": "^0.31.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@rollup/plugin-commonjs": "^21.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wisenchen/vue-router-history-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wisenchen/vue-router-history-manager/issues"
+  },
+  "homepage": "https://github.com/wisenchen/vue-router-history-manager#readme"
+} 
