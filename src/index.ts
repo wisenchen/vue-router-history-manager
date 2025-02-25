@@ -24,7 +24,8 @@ export class VueRouterHistoryManager {
 
   _updateHistory() {
     // Vue Router 3.x history state key is unique for each route and can be used to identify it
-    const currentKey = window.history.state.key;
+    const currentKey = window.history.state?.key;
+    if (!currentKey) return;
     const historyIndex = this.historyStack.value.indexOf(currentKey);
     // If the route is not in the history stack, add it, backward and forward will be based on this stack
     if (historyIndex === -1) {

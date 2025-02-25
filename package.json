@@ -1,6 +1,6 @@
 {
   "name": "vue-router-history-manager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vue Router history manager",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
